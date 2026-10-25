@@ -1,0 +1,38 @@
+Actual simulation output (iverilog -g2012, vvp):
+
+VCD info: dumpfile ring_johnson_counter.vcd opened for output.
+PASS at 6000: Ring reset state; q=0001
+PASS at 16000: Ring sequence; q=0010
+PASS at 26000: Ring sequence; q=0100
+PASS at 36000: Ring sequence; q=1000
+PASS at 46000: Ring sequence; q=0001
+PASS at 56000: Ring sequence; q=0010
+PASS at 66000: Ring sequence; q=0100
+PASS at 76000: Ring sequence; q=1000
+PASS at 86000: Ring sequence; q=0001
+PASS at 96000: Enable low holds count; q=0001
+PASS at 106000: Johnson reset state; q=0000
+PASS at 116000: Johnson sequence; q=0001
+PASS at 126000: Johnson sequence; q=0011
+PASS at 136000: Johnson sequence; q=0111
+PASS at 146000: Johnson sequence; q=1111
+PASS at 156000: Johnson sequence; q=1110
+PASS at 166000: Johnson sequence; q=1100
+PASS at 176000: Johnson sequence; q=1000
+PASS at 186000: Johnson sequence; q=0000
+PASS at 196000: Johnson sequence; q=0001
+PASS at 206000: Johnson sequence; q=0011
+PASS at 216000: Johnson sequence; q=0111
+PASS at 226000: Johnson sequence; q=1111
+PASS at 236000: Johnson sequence; q=1110
+PASS at 246000: Johnson sequence; q=1100
+PASS at 256000: Johnson sequence; q=1000
+PASS at 266000: Johnson sequence; q=0000
+PASS at 276000: Johnson enable low holds state; q=0000
+PASS at 316000: Johnson mid-run reset; q=0000
+PASS at 326000: Mode switch to Ring loads 0001; q=0001
+PASS at 336000: Ring continues after mode switch; q=0010
+PASS at 346000: Mode switch to Johnson loads 0000; q=0000
+PASS at 356000: Johnson continues after mode switch; q=0001
+PASS at 386000: Ring mid-run reset; q=0001
+ALL TESTS PASSED
