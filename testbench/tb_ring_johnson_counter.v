@@ -24,7 +24,7 @@ module tb_ring_johnson_counter;
             if (q !== expected) begin
                 $display("FAIL at %0t: %0s; expected %b, got %b",
                          $time, message, expected, q);
-                $fatal(1);
+                $finish;
             end else begin
                 $display("PASS at %0t: %0s; q=%b",
                          $time, message, q);
